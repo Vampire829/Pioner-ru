@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Jost", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header {
+  margin-top: 32px;
+}
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 36px;
+}
+.header__consultesion {
+  display: flex;
+  gap: 20px;
+}
+.header-contact {
+  display: block;
+}
+.header-contact a {
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.mail {
+  padding-left: 25%;
+}
+.header-contact p {
+  color: #333;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 120%;
+}
+.tel {
+  padding-left: 26%;
+}
+.header__bottom {
+  margin-bottom: 80px;
+}
+.header__bottom-span {
+  position: relative;
+}
+.header__bottom-span span {
+  padding-right: 44px;
+}
+.header__bottom-iphone {
+  display: flex;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.header__bottom-iphone span {
+  padding-right: 0;
+  padding-left: 2px;
+}
+.header__bottom-iphone a {
+  text-decoration: none;
+}
+.factory {
+  margin-bottom: 80px;
+}
+.factory__text {
+  display: flex;
+  position: relative;
+  margin-bottom:25px;
+}
+.factory__text h1 {
+  max-width: 580px;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 120%;
+}
+.factory__text p {
+  width: 379px;
+  height: 94px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 120%;
+  color: #333;
+  position: absolute;
+  right: 21%;
+  bottom: 24%;
+}
+.factory__img img{
+    height: 100%;
+    width: 100%;
+}
