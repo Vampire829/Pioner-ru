@@ -7,6 +7,10 @@ h2 {
   margin: 0;
   padding: 0;
 }
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
 p {
   margin: 0;
   padding: 0;
@@ -81,7 +85,7 @@ body {
 .factory__text {
   display: flex;
   position: relative;
-  margin-bottom:25px;
+  margin-bottom: 25px;
 }
 .factory__text h1 {
   max-width: 580px;
@@ -89,6 +93,7 @@ body {
   font-weight: 700;
   line-height: 120%;
 }
+
 .factory__text p {
   width: 379px;
   height: 94px;
@@ -100,7 +105,266 @@ body {
   right: 21%;
   bottom: 24%;
 }
-.factory__img img{
-    height: 100%;
-    width: 100%;
+
+.factory__img img {
+  height: 100%;
+  width: 100%;
 }
+
+.predpriatie h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #333;
+  line-height: 120%;
+}
+.predpriatie-text {
+  display: flex;
+  flex-wrap: wrap;
+}
+.predpriatie-text p {
+  color: #333;
+  width: 580px;
+  padding: 32px 20px 24px 0;
+}
+.predpriatie-text-title {
+  padding: 0 !important;
+}
+.predpriatie-imgs {
+  display: flex;
+  gap: 20px;
+}
+.predpriatie-imgs img {
+  max-width: 580px;
+  margin: 32px 0 80px 0;
+}
+.products{
+  margin-bottom: 65px;
+  
+}
+.products h2 {
+  color: #333;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.products-imgs{
+  margin-top:32px ;
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+}
+.products-img{
+  background: #F5F5F5;
+  width: 380px;
+  height: 435px;
+  margin-bottom: 25px;
+  position: relative;
+  
+}
+.products-img img{
+  width: 200px;
+  position: absolute;
+  top: 6%;
+  left: 12px;
+}
+.products-img p{
+  padding: 333px 0 12px 24px;
+}
+.products-img a{
+ padding: 0 0 32px 24px;
+ cursor: pointer;
+}
+.predstavitelstvo__inner{
+  font-size: 48px;
+  font-weight: 700;
+  color:#333;
+  line-height: 120%;
+  margin-bottom: 32px;
+}
+.predstavitelstvo__cart{
+  display: inline-flex;
+  height: 715px;
+  align-items: center;
+  padding: 3.917px 24.535px 32.243px 3.57px;
+  position: relative;
+  gap:20px;
+}
+.icon-2{
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+}
+.icon-3{
+  position: absolute;
+  left: 46px;
+  bottom: 200px;
+}
+.icon-4{
+position: relative;
+left: 27px;
+bottom: -27px;
+}
+.icon-5{
+  position: absolute;
+  left: 97px;
+  bottom:336px;
+}
+.icon-6{
+  position: absolute;
+  left: 105px;
+  top:343px
+}
+.icon-7{
+position: absolute;
+left: 123px;
+top:358px
+}
+.icon-8{
+  position: absolute;
+  top: 286px;
+  left: 140px
+}.icon-9{
+  position: absolute;
+  top: 255px;
+  left: 211px
+}
+.icon-10{
+  position: absolute;
+  top: 338px;
+  left: 187px;
+}
+
+.icon-11{
+  position: absolute;
+  top: 382px;
+  left: 145px;
+}
+.icon-12{
+  position: absolute;
+  top: 155px;
+  left: 280px;
+}
+.icon-13{
+  position: absolute;
+  top:377px;
+  left: 243px;
+}
+.icon-14{
+  position: absolute;
+  top: 444px;
+  left: 116px;
+}
+.icon-15{
+  position: absolute;
+  bottom: 236px;
+  left: 376px;
+}
+.icon-16{
+  position: absolute;
+  top: 427px;
+  left: 336px;
+}
+.icon-17{
+  position: absolute;
+  top:477px;
+  left: 278px;
+}
+.icon-18{
+  position: absolute;
+  bottom: 124px;
+  left: 266px;
+}
+.icon-19{
+position: absolute;
+bottom: 143px;
+left: 308px;
+}
+.icon-20{
+  position: absolute;
+  bottom: 142px;
+  left: 344px;
+}
+.icon-21{
+  position: absolute;
+  bottom: 107px;
+  left: 388px;
+}
+.icon-22{
+  position: absolute;
+  bottom: 127px;
+  left: 438px;
+}
+.icon-23{
+  position: absolute;
+  bottom: 91px;
+  left: 427px;
+}
+.icon-24{
+  position: absolute;
+  bottom: 42px;
+  left: 446px;
+}
+.icon-25{
+  position: absolute;
+  bottom: 66px;
+  right: -455px;
+}
+.icon-26{
+  position: absolute;
+  bottom: 52px;
+  left: 547px;
+}
+.icon-27{
+  position: absolute;
+  bottom: 17px;
+  left: 506px;
+}
+.icon-28{
+  position: absolute;
+  bottom: 30px;
+  left: 556px;
+}
+.icon-29{
+  position: absolute;
+  bottom: 44px;
+  left: 655px;
+}
+.icon-30{
+  position: absolute;
+  bottom: 63px;
+  left: 620px;
+}
+
+.icon-31{
+  position: absolute;
+  bottom: 83px;
+  left: 686px;
+}
+.icon-32{
+  position: absolute;
+  bottom: 45px;
+  left: 755px;
+}
+.icon-33{
+  position: absolute;
+  bottom: 76px; 
+  left: 796px;
+}
+.svg-1{
+  fill: var(--third, #D9D9D9);
+  position: absolute;
+  top: 250px;
+  left: 503px;
+}
+.icon-34{
+  position: absolute;
+  bottom: 128px;
+  left: 831px;
+}
+.svg-2{
+  position: absolute;
+  top: 200px;
+  left: 664px;
+}
+.icon-35{}
+.icon-36{}
