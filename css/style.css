@@ -7,7 +7,7 @@ h2 {
   margin: 0;
   padding: 0;
 }
-a{
+a {
   text-decoration: none;
   cursor: pointer;
 }
@@ -20,6 +20,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-family: "Poppins", sans-serif;
   font-family: "Source Sans 3", sans-serif;
+  color: #333;
 }
 .container {
   max-width: 1200px;
@@ -137,9 +138,8 @@ body {
   max-width: 580px;
   margin: 32px 0 80px 0;
 }
-.products{
+.products {
   margin-bottom: 65px;
-  
 }
 .products h2 {
   color: #333;
@@ -147,224 +147,485 @@ body {
   font-weight: 700;
 }
 
-.products-imgs{
-  margin-top:32px ;
-display: flex;
-flex-wrap: wrap;
-gap: 20px;
+.products-imgs {
+  margin-top: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
-.products-img{
-  background: #F5F5F5;
+.products-img {
+  background: #f5f5f5;
   width: 380px;
   height: 435px;
   margin-bottom: 25px;
   position: relative;
-  
 }
-.products-img img{
+.products-img img {
   width: 200px;
   position: absolute;
   top: 6%;
   left: 12px;
 }
-.products-img p{
+.products-img p {
   padding: 333px 0 12px 24px;
 }
-.products-img a{
- padding: 0 0 32px 24px;
- cursor: pointer;
+.products-img a {
+  padding: 0 0 32px 24px;
+  cursor: pointer;
 }
-.predstavitelstvo__inner{
+.predstavitelstvo {
+  margin-bottom: 80px;
+}
+.predstavitelstvo__inner {
   font-size: 48px;
   font-weight: 700;
-  color:#333;
+  color: #333;
   line-height: 120%;
   margin-bottom: 32px;
 }
-.predstavitelstvo__cart{
+.predstavitelstvo__cart {
   display: inline-flex;
   height: 715px;
   align-items: center;
   padding: 3.917px 24.535px 32.243px 3.57px;
   position: relative;
-  gap:20px;
+  gap: 20px;
 }
-.icon-2{
+.icon-2 {
   position: absolute;
   bottom: 40px;
   left: 0;
 }
-.icon-3{
+.icon-3 {
   position: absolute;
   left: 46px;
   bottom: 200px;
 }
-.icon-4{
-position: relative;
-left: 27px;
-bottom: -27px;
+.icon-4 {
+  position: relative;
+  left: 27px;
+  bottom: -27px;
 }
-.icon-5{
+.icon-5 {
   position: absolute;
   left: 97px;
-  bottom:336px;
+  bottom: 336px;
 }
-.icon-6{
+.icon-6 {
   position: absolute;
   left: 105px;
-  top:343px
+  top: 343px;
 }
-.icon-7{
-position: absolute;
-left: 123px;
-top:358px
+.icon-7 {
+  position: absolute;
+  left: 123px;
+  top: 358px;
 }
-.icon-8{
+.icon-8 {
   position: absolute;
   top: 286px;
-  left: 140px
-}.icon-9{
+  left: 140px;
+}
+.icon-9 {
   position: absolute;
   top: 255px;
-  left: 211px
+  left: 211px;
 }
-.icon-10{
+.icon-10 {
   position: absolute;
   top: 338px;
   left: 187px;
 }
 
-.icon-11{
+.icon-11 {
   position: absolute;
   top: 382px;
   left: 145px;
 }
-.icon-12{
+.icon-12 {
   position: absolute;
   top: 155px;
   left: 280px;
 }
-.icon-13{
+.icon-13 {
   position: absolute;
-  top:377px;
+  top: 377px;
   left: 243px;
 }
-.icon-14{
+.icon-14 {
   position: absolute;
   top: 444px;
   left: 116px;
 }
-.icon-15{
+.icon-15 {
   position: absolute;
   bottom: 236px;
   left: 376px;
 }
-.icon-16{
+.icon-16 {
   position: absolute;
   top: 427px;
   left: 336px;
 }
-.icon-17{
+.icon-17 {
   position: absolute;
-  top:477px;
+  top: 477px;
   left: 278px;
 }
-.icon-18{
+.icon-18 {
   position: absolute;
   bottom: 124px;
   left: 266px;
 }
-.icon-19{
-position: absolute;
-bottom: 143px;
-left: 308px;
+.icon-19 {
+  position: absolute;
+  bottom: 143px;
+  left: 308px;
 }
-.icon-20{
+.icon-20 {
   position: absolute;
   bottom: 142px;
   left: 344px;
 }
-.icon-21{
+.icon-21 {
   position: absolute;
   bottom: 107px;
   left: 388px;
 }
-.icon-22{
+.icon-22 {
   position: absolute;
   bottom: 127px;
   left: 438px;
 }
-.icon-23{
+.icon-23 {
   position: absolute;
   bottom: 91px;
   left: 427px;
 }
-.icon-24{
+.icon-24 {
   position: absolute;
   bottom: 42px;
   left: 446px;
 }
-.icon-25{
+.icon-25 {
   position: absolute;
-  bottom: 66px;
-  right: -455px;
+  bottom: 67px;
+  left: 515px;
 }
-.icon-26{
+
+.icon-26 {
   position: absolute;
-  bottom: 52px;
-  left: 547px;
+  bottom: 54px;
+  left: 545px;
 }
-.icon-27{
+.icon-27 {
   position: absolute;
   bottom: 17px;
   left: 506px;
 }
-.icon-28{
+.icon-28 {
   position: absolute;
   bottom: 30px;
   left: 556px;
 }
-.icon-29{
+.icon-29 {
   position: absolute;
   bottom: 44px;
   left: 655px;
 }
-.icon-30{
+.icon-30 {
   position: absolute;
   bottom: 63px;
   left: 620px;
 }
 
-.icon-31{
+.icon-31 {
   position: absolute;
   bottom: 83px;
   left: 686px;
 }
-.icon-32{
+.icon-32 {
   position: absolute;
   bottom: 45px;
   left: 755px;
 }
-.icon-33{
+.icon-33 {
   position: absolute;
-  bottom: 76px; 
+  bottom: 76px;
   left: 796px;
 }
-.svg-1{
-  fill: var(--third, #D9D9D9);
+.svg-1 {
+  fill: var(--third, #d9d9d9);
   position: absolute;
-  top: 250px;
+  top: 251px;
   left: 503px;
 }
-.icon-34{
+.icon-34 {
   position: absolute;
   bottom: 128px;
   left: 831px;
 }
-.svg-2{
+.svg-2 {
   position: absolute;
   top: 200px;
   left: 664px;
 }
-.icon-35{}
-.icon-36{}
+.icon-35 {
+  position: absolute;
+  bottom: 119px;
+  right: -738px;
+}
+.svg-3 {
+  position: absolute;
+  bottom: 126px;
+  left: 909px;
+}
+.icon-36 {
+  position: absolute;
+  bottom: 43px;
+  left: 1025px;
+}
+.icon-37 {
+  position: absolute;
+  bottom: 160px;
+  left: 1036px;
+}
+.icon-38 {
+  position: absolute;
+  top: 237px;
+  left: 937px;
+}
+.icon-39 {
+  position: absolute;
+  top: 53px;
+  left: 928px;
+}
+.icon-40 {
+  position: absolute;
+  top: 180px;
+  left: 1002px;
+}
+.icon-41 {
+  position: absolute;
+  top: 299px;
+  left: 1091px;
+}
+.icon-42 {
+  position: absolute;
+  top: 230px;
+  left: 799px;
+}
+.icon-43 {
+  position: absolute;
+  top: 195px;
+  left: 810px;
+}
+.icon-44 {
+  position: absolute;
+  top: 205px;
+  left: 790px;
+}
+.icon-45 {
+  position: absolute;
+  top: 207px;
+  left: 770px;
+}
+.predstavitelstvo__cart::before {
+  content: url(/public/images/point.png);
+  z-index: 2;
+  position: absolute;
+  bottom: 175px;
+  left: 68px;
+}
+.predstavitelstvo__cart::after{
+  content: "Ростов-на-дону";
+  color: var(--dark, #333);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 120%;
+  position: absolute;
+  bottom: 178px;
+  left: 80px;
+  width: 82px;
+}
+.psevdo__element-1::before{
+  content: url(/public/images/point-1.png);
+  z-index: 2;
+  position: absolute;
+  bottom: 153px;
+  left: 100px;
+}
+.psevdo__element-1::after{
+  content: "Волгоград";
+  color: var(--dark, #333);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 120%;
+  position: absolute;
+  bottom: 157px;
+  left: 120px;
+  z-index: 2;
+}
+.psevdo__element-2::before{
+  content: url(/public/images/point-1.png);
+  z-index: 2;
+  position: absolute;
+  bottom: 178px;
+    left: 182px;
+}
+.psevdo__element-2::after{
+  content: "Самара";
+  color: var(--dark, #333);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 120%;
+  position: absolute;
+  bottom: 180px;
+  left: 195px;
+  z-index: 2;
+}
+.psevdo__element-3::before{
+  content: url(/public/images/point-1.png);
+  z-index: 2;
+  position: absolute;
+  bottom: 210px;
+    left: 200px;
+}
+.psevdo__element-3::after{
+  content: "Казань";
+  color: var(--dark, #333);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 120%;
+  position: absolute;
+  bottom: 215px;
+  left: 213px;
+  z-index: 2;
+}
+.psevdo__element-4::before{
+  content: url(/public/images/point-1.png);
+  z-index: 2;
+  position: absolute;
+  bottom: 161px;
+    left: 246px;
+}
+.psevdo__element-4::after{
+  content: "Уфа";
+  color: var(--dark, #333);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 120%;
+  position: absolute;
+  bottom: 165px;
+  left: 262px;
+  z-index: 2;
+}
+.psevdo__element-5::before{
+  content: url(/public/images/point-1.png);
+  z-index: 2;
+  position: absolute;
+  bottom: 247px;
+  left: 383px;
+}
+.psevdo__element-5::after{
+  content: "Нижневартовск";
+  color: var(--dark, #333);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 120%;
+  position: absolute;
+  bottom: 250px;
+  left: 400px;
+  z-index: 2;
+}
+.psevdo__element-6::before{
+  content: url(/public/images/point-1.png);
+  z-index: 2;
+  position: absolute;
+  bottom: 95px;
+  left: 1050px;
+}
+.psevdo__element-6::after{
+  content: "Владивосток";
+  color: var(--dark, #333);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 120%;
+  position: absolute;
+  bottom: 98px;
+  left: 1067px;
+  z-index: 2;
+}
+
+
+.novision {
+  margin-bottom: 80px;
+}
+.novision h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 32px;
+}
+.novision__inner {
+  display: flex;
+  gap: 20px;
+}
+.novision-cart {
+}
+.novision-cart img {
+  width: 380px;
+  height: 251px;
+}
+.novision-cart p {
+  width: 348px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 140%;
+  padding: 16px 16px 83px 16px;
+}
+.novision-cart a {
+  padding: 0 183px 25px 16px;
+}
+.cart-04 p {
+  padding-bottom: 111px;
+}
+.novision-cart__data {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  color: #888;
+  padding: 0 16px 24px 0;
+}
+.footer {
+  background: #333;
+}
+.foooter__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__logo {
+  margin-top: 56px;
+}
+.footer__connnection ul li {
+  color: white;
+  list-style-type: none;
+  padding-bottom: 24px;
+}
+
+.footer__connnection{
+  display: flex;
+  gap: 90px;
+  margin-top: 56px;
+}
+.footer__bottom{
+  margin: 73px auto  0 auto;
+  padding-bottom: 24px;
+  text-align: center;
+}
+.footer__bottom span{
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 120%;
+}
